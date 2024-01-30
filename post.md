@@ -1,15 +1,28 @@
-# Lab X: Doing stuff with hardware!
+# Lab 2: 
 
-Please write a blog post describing your lab here.
+# Overview and Motivation
+Welcome to the Lab 02 of CS281: Introduction to Computer Systems! 
+This lab serves as your gateway into the world of hardware and embedded systems. The lab will take you through the intricacies of the PB-503 breadboard prototyping stations and the Arduino microcontroller system. By the end of this lab, you'll be adept at working with essential circuit components like LEDs, resistors, and logic gates, and you'll understand how to interpret IC data sheets—an invaluable skill in the realm of computer systems.
 
-This is just an example of how you might structure your blog post, feel free to edit as you wish. For example, you might divide the lab into different sections each with their own intro, instructions, results, and takeaways. Please see the rubric for details on how the post will be evaluated.
 
-## Overview and Motivation
-This week we'll explore...
+# Objectives of the Lab
+1. 
+ 
+# Materials
+- PB-503 breadboard prototyping station (integrated device with a number of electrical components like switches)
+- Arduino kit
+- LEDs
+- 330 Ohm resistors
+- Logic probes
+- 7404 NOT gate IC
+- 7408 AND gate IC
+- Wires
+- Arduino controller and USB cable
 
-## Materials
 
-## Project Steps
+# Breadboard Basics
+## Project Step
+
 
 ## Testing
 
