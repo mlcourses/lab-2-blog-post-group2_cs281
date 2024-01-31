@@ -23,6 +23,33 @@ This lab will help you get more familiar with mux and logic circuits. The lab wi
 - Arduino controller and USB cable
 
 
+
+
+https://github.com/mlcourses/lab-2-blog-post-group2_cs281/assets/108073642/125a3946-ed96-45de-8bef-ba428378e4da
+
+
+
+https://github.com/mlcourses/lab-2-blog-post-group2_cs281/assets/108073642/213d9fcb-be48-41ab-842a-1e43fefb773a
+
+
+
+https://github.com/mlcourses/lab-2-blog-post-group2_cs281/assets/108073642/ddfe7483-52f7-43e0-9fa7-299b150f3bff
+
+
+
+https://github.com/mlcourses/lab-2-blog-post-group2_cs281/assets/108073642/5a70cc00-38b9-4871-86ad-b185ff36a86f
+
+
+
+https://github.com/mlcourses/lab-2-blog-post-group2_cs281/assets/108073642/a8c8027f-aae0-4918-9dca-6aa916d5edb1
+
+
+
+https://github.com/mlcourses/lab-2-blog-post-group2_cs281/assets/108073642/4e63c027-e4d0-484e-8188-e232cd5fff7f
+
+
+
+
 # A 2 to 1 Mux
 ## 0 About
 
