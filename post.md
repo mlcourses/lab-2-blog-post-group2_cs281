@@ -167,7 +167,19 @@ It is now time to use the code to test our 4-1 Multiplexer! First lets understan
 - Next is the output list (list Y). There is a note in the code for a list if you are using a 74150 Mux, which we were using in this case. If this is the case for you as well, uncomment the code.
 - After that there are two lines making variables that we will use as time delays.
 - Next, we create variables index and x. Index is used to indicate which index of the lists we are on for data input. "x" is used for reading input.
-- In the setup function of the code, we are assining the pins to their a
+- In the setup function of the code, we are assining the pins to their appropriate pinholes on the arduino and that they will be output.
+- Now we are in the void loop. We are starting by assigning the values at the current index of the lists for each pin (currently index is 0). We are also doing this for the selector pins.
+- Next we do a delay for the logic signal to propogate.
+- Then we are assigning the output from the mux to "x"
+- Finally the last chunk of code is displaying information regarding the inputs.
+
+<br>Now that we understand the code we can test our circuit and make sure it works.
+- Make sure to compile and verify the code and then upload it to the Arduino.
+- It should then start running on your computer screen.
+- You will see lines indicating the inputs and they will either say "Ok" or "Bad"
+- You want to make sure they all say "Ok"!
+- Here is what our correct wiring looks like if yours is not working:
+  
 
 
 # Adder Circuit
