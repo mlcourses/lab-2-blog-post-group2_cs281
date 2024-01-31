@@ -80,7 +80,67 @@ For this section, we will provide our program we used for our Arduino and explai
 Takeaways from this section include: How to use an Arduino with a circuit, how to program an Arduino board, continuation of using a 4-1 Multiplexer.
 ## 1. Project Step
 To start off, we want to write up the code we will use in the Arduino program. You can simply copy this code here:
-
+```
+const int S0[] = {0,0,1,1,0,0,1,1};
+const int S1[] = {0,0,0,0,1,1,1,1};
+const int A[] = {0,1,0,0,0,0,0,0};
+const int B[] = {0,0,0,1,0,0,0,0};
+const int C[] = {0,0,0,0,0,1,0,0};
+const int D[] = {0,0,0,0,0,0,0,1};
+const int Y[] = {0,1,0,1,0,1,0,1};
+// You are probably using a 74150, so the outputs are reversed.
+// Use this Y instead:
+// const int Y[] = {1,0,1,0,1,0,1,0};
+const int WAIT0 = 300;
+const int WAIT1 = 2000;
+int index = 0;
+int x; // for reading input
+void setup() {
+    // Serial Port setup for communication back to computer
+    Serial.begin(9600);
+    // data pins are outputs (for Arduino)
+    pinMode(10,OUTPUT); // A
+    pinMode(11,OUTPUT); // B
+    pinMode(12,OUTPUT); // C
+    pinMode(13,OUTPUT); // D
+    // select pins are outputs (for Arduino)
+    pinMode(8,OUTPUT); // S0
+    3
+    pinMode(9,OUTPUT); // S1
+    // Mux output is input for Arduino
+    pinMode(7,INPUT);
+}
+void loop() {
+    // write data inputs to MUX
+    digitalWrite(10,A[index]);
+    digitalWrite(11,B[index]);
+    digitalWrite(12,C[index]);
+    digitalWrite(13,D[index]);
+    // write select line inputs to MUX
+    digitalWrite(8,S0[index]);
+    digitalWrite(9,S1[index]);
+    delay(WAIT0); // give time for logic signal to propagate
+    // read the MUX output
+    x = digitalRead(7);
+    // display the results
+    Serial.print(index);
+    Serial.print(" x:");
+    Serial.print(x,BIN);
+    Serial.print(", y:");
+    Serial.print(Y[index],BIN);
+    Serial.print("\t ");
+    if ( x == Y[index] )
+    {
+        Serial.print(": OK\n");
+    }
+    else
+    {
+        Serial.print(": BAD\n");
+    }
+    delay(WAIT1);
+    index = (index+1) % 8; // increment index
+}
+```
 ## 2. Testing
 
 
