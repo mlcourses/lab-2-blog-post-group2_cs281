@@ -20,39 +20,39 @@ This lab will help you get more familiar with mux and logic circuits. The lab wi
 
 
 # A 2 to 1 Mux
-## Project Step
+## 1. Project Step
 
 
-## Testing
+## 2. Testing
 
-## Conclusion
+## 3. Conclusion
 
 
 # A 4 to 1 Mux
-## Project Step
+## 1. Project Step
 
 
-## Testing
+## 2. Testing
 
-## Conclusion
+## 3. Conclusion
 
 
 # A 4 to 1 Mux with Arduino
-## Project Step
+## 1. Project Step
 
 
-## Testing
+## 2. Testing
 
-## Conclusion
+## 3. Conclusion
 
 
 # Adder Circuit
-## Project Step
+## 1. Project Step
 
 
-## Testing
+## 2. Testing
 
-## Conclusion
+## 3. Conclusion
 
 
 # Lab conclusion
