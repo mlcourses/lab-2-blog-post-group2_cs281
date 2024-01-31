@@ -179,9 +179,7 @@ It is now time to use the code to test our 4-1 Multiplexer! First lets understan
 - You will see lines indicating the inputs and they will either say "Ok" or "Bad"
 - You want to make sure they all say "Ok"!
 - Here is what our correct wiring looks like if yours is not working:
-  
-
-
+<br><img width="286" src="IMG_0246.JPG">
 # Adder Circuit
 ## 0 About
 We will generate a binary adder in this section! 
