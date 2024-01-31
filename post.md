@@ -74,9 +74,12 @@ https://github.com/mlcourses/lab-2-blog-post-group2_cs281/assets/108073642/4e63c
 
 # A 4 to 1 Mux with Arduino
 ## 0 About
-
+We will be using an Arduino to test the operation of the 4-1 Multiplexer in this portion of the lab.
+Previously, we used switches to test the ourputs and operations for the mux, but by using an Arduino, we can automate the process. 
+For this section, we will provide our program we used for our Arduino and explain them as we go. 
+Takeaways from this section include: How to use an Arduino with a circuit, how to program an Arduino board, continuation of using a 4-1 Multiplexer.
 ## 1. Project Step
-
+To start off, we want to write up the code we will use in the Arduino program. You can simply copy this code here:
 
 ## 2. Testing
 
