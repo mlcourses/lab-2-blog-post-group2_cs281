@@ -141,8 +141,33 @@ void loop() {
     index = (index+1) % 8; // increment index
 }
 ```
+For consistency with the program, stick to these inputs for the Arduino:
+<br>Pin 10 Data input A (E0 on the mux)
+<br>Pin 11 Data input B (E1 on the mux) 
+<br>Pin 12 Data input C (E2 on the mux) 
+<br>Pin 13 Data input D (E3 on the mux) 
+<br>Pin 8 Select Line 0 (A on the mux) 
+<br>Pin 9 Select Line 1 (B on the mux) 
+<br>Pin 7 output data from mux (w on the mux) 
+<br>GND Connect the GND (adjacent to pin 13) to ground on the breadboard 
+### Wiring
+Here is an IC Diagram for the 4-1 Mux to help understand the wiring
+<br><img width="286" alt="Screenshot 2024-01-31 at 3 15 32 PM" src="https://github.com/mlcourses/lab-2-blog-post-group2_cs281/assets/140196347/db3f658b-9513-4e90-8f70-59bee36a47d1">
+- Looking at this diagram, it may look very confusing. No need to worry, we will explain the wiring.
+- Starting off you will want to make sure that the mux has power by wiring pin 24 into power on the breadboard.
+- Next we will add our ground wires to be attached adjacent to pin hole 13 on the board, as well as 12, 11, and 9.
+- Next, lets do our selector pins. We used orange wires to indicate these, but you make pick whatever color you would like. These will go into ports A and B on the mux. (You can refer to the pin inputs previosuly mentioned to see which wire goes to which port on the Arduino).
+- Next we will want to add our input wires, do this by inserting wires adjacent to pins E0-E3. These will by attached to pins 10-13 on the Arduino. (Again, refer to the pin inputs for the Arduino previously stated).
+- Finally for the mux, we want to wire our output to the logic indicator. This can be done by inserting a wire adjacent to the W pin on the mux.
+- For the Arduino we also need to ground it (GND on the board), as well as connect all the wires from the mux to the appropriate pin holes.
 ## 2. Testing
-
+It is now time to use the code to test our 4-1 Multiplexer! First lets understand the code.
+- The first two lines are lists containing 0s and 1s for our selector pins. You will see a lot of these lists. The program will loop through these lists and use the values at each index of the list as an input to the mux.
+- The next 4 lines (lists A-D), are the data inputs for the mux
+- Next is the output list (list Y). There is a note in the code for a list if you are using a 74150 Mux, which we were using in this case. If this is the case for you as well, uncomment the code.
+- After that there are two lines making variables that we will use as time delays.
+- Next, we create variables index and x. Index is used to indicate which index of the lists we are on for data input. "x" is used for reading input.
+- In the setup function of the code, we are assining the pins to their a
 
 
 # Adder Circuit
