@@ -54,13 +54,15 @@ https://github.com/mlcourses/lab-2-blog-post-group2_cs281/assets/108073642/4e63c
 ## 0 About
 To begin with we will construct a multiplexer or a mux for short. A multiplexer is meant for selecting between multiple inputs to one output. The 2 to 1 mux we will be constructing will have two inputs D0 and D1 and a selector S0 which toggles which input is being sent out. We will be using AND, OR, and NOT gates to construct our multiplexer. For this use the 7408, 7432, and 7404, AND, OR, and NOT gate ICs.<br />
 A diagram of the mux circuit:
+<br><img width="300" src="IMG_481DA5426DC1-1.jpeg">
 
 ## 1. Project Step
 - To start have your three ICs on the bread board and wire thier Vcc pins to 5v and the GND pins to ground.
 <br><img width="300" src="IMG_0228.JPG">
 <br />
 -Wire a logic switch on the bread board to split and have one offshoot be going into a NOT gate.
--Then another logic switch to be used for D0 should be wired to 
+-Then another logic switch to be used for D0 should be wired to one of the AND gates. The other input for this AND gate will be the output of our NOT gate for S0.
+- D1 will be another logic switch wired to a different AND gate with the direct offshoot of S0 being the other gate input.
 
 
 ## 2. Testing
