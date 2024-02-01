@@ -52,9 +52,10 @@ https://github.com/mlcourses/lab-2-blog-post-group2_cs281/assets/108073642/4e63c
 
 # A 2 to 1 Mux
 ## 0 About
-To begin with we will construct a multiplexer or a mux for short. A multiplexer is meant for selecting between multiple inputs to one output. The 2 to 1 mux we will be constructing will have two inputs D0 and D1 and a selector S0 which toggles which input is being sent out.
+To begin with we will construct a multiplexer or a mux for short. A multiplexer is meant for selecting between multiple inputs to one output. The 2 to 1 mux we will be constructing will have two inputs D0 and D1 and a selector S0 which toggles which input is being sent out. We will be using AND, OR, and NOT gates to construct our multiplexer. For this use the 7408, 7432, and 7404, AND, OR, and NOT gate ICs.
 
 ## 1. Project Step
+- To start have your three ICs on the bread board.
 
 
 ## 2. Testing
@@ -181,6 +182,8 @@ It is now time to use the code to test our 4-1 Multiplexer! First lets understan
 - You want to make sure they all say "Ok"!
 - Here is what our correct wiring looks like if yours is not working:
 <br><img width="286" src="IMG_0246.JPG">
+
+
 # Adder Circuit
 ## 0 About
 <br><img width="400" src="1.jpg">
