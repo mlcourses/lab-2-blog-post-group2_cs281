@@ -61,9 +61,10 @@ A diagram of the mux circuit:
 <br><img width="300" src="IMG_0228.JPG">
 <br />
 -Wire a logic switch on the bread board to split and have one offshoot be going into a NOT gate.
--Then another logic switch to be used for D0 should be wired to one of the AND gates. The other input for this AND gate will be the output of our NOT gate for S0.
-- D1 will be another logic switch wired to a different AND gate with the direct offshoot of S0 being the other gate input.
-
+-Then another logic switch to be used for D0 should be wired to one of the AND gates. The other input for this AND gate will be the output of our NOT gate for S0.<br />
+- D1 will be another logic switch wired to a different AND gate with the direct offshoot of S0 being the other gate input.<br />
+- From the two outputs of the AND gate wire them into an OR gate.
+- Finally you can wire the OR gate output into a logic inticator to read the output of the multiplexer input.  
 
 ## 2. Testing
 
