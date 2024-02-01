@@ -1,4 +1,4 @@
-# Lab 2: 
+# Lab 2: Let's play with Circuits!
 
 # Overview and Motivation
 Welcome to the Lab 02 of CS281: Introduction to Computer Systems! 
