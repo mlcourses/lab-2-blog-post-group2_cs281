@@ -188,15 +188,21 @@ The outputs are the carry-over from the previous sum and sum bit.
 We will use cin be the carry-in bit from a previous column. Let cout be the carry-out bit which may go through to the next column.
 This will be very important in building complex arithmetic circuits later.
 Now let's start!
+
+<br><img width="400" src="IMG_0251.JPG">
  
 ## 1. Project Step
 - Design a circuit that takes two 1-bit numbers as inputs, plus a carry-in and outputs (first - a bit representing the 1-bit sum of the numbers and second - a bit representing the 1-bit carry)
   1. Build a truth table (tree inputs and two output columns)
+     <br><img width="400" src="IMG_63872F420CD6-1.jpeg">
   2. Create SOP design for two outputs (try to reduce the complexity if you can)
+     <br><img width="400" src="IMG_DB5FC10C38AE-1.jpeg">
   3. Design a circuit for the adder
+      <br><img width="400" src="IMG_CD9D14E48534-1.jpeg">
 - Check the circuit is working by using a computer program
 - Build the circuit on the breadboard!
 - Start testing!
+
 
 ## 2. Testing
 - Use three switches for the inputs that you connected
