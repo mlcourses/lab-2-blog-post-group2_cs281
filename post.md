@@ -16,7 +16,7 @@ This lab will help you get more familiar with mux and logic circuits. The lab wi
 - Arduino kit
 - 7404 NOT gate IC
 - 7408 AND gate IC
-- OR gate IC
+- 7432 OR gate IC
 - 74150 mux chip
 - Wires
 - LED
@@ -52,6 +52,7 @@ https://github.com/mlcourses/lab-2-blog-post-group2_cs281/assets/108073642/4e63c
 
 # A 2 to 1 Mux
 ## 0 About
+To begin with we will construct a multiplexer or a mux for short. A multiplexer is meant for selecting between multiple inputs to one output. The 2 to 1 mux we will be constructing will have two inputs D0 and D1 and a selector S0 which toggles which input is being sent out.
 
 ## 1. Project Step
 
