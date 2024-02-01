@@ -182,7 +182,7 @@ It is now time to use the code to test our 4-1 Multiplexer! First lets understan
 <br><img width="286" src="IMG_0246.JPG">
 # Adder Circuit
 ## 0 About
-<br><img width="400" src="1.JPG">
+<br><img width="400" src="1.jpg">
 We will generate a binary adder in this section! 
 The adder has a couple of inputs: namely bits Ai + Bi of the two operands.
 The outputs are the carry-over from the previous sum and sum bit. 
