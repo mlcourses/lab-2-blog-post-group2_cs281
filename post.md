@@ -205,6 +205,6 @@ Now let's start!
 
 
 # Conclusion
-
+This lab had a lot of key takeaways. Namely, we reinforced our understanding of AND, OR, and NOT gates, and even began using an XOR gate for the first time on a breadboard. Along with the XOR gate, some new things we used were, 2-1 and 4-1 multiplexers. While it was easy to just use a premade mux, it is crucial to understand the operations of a mux. It may be helpful to draw out how a mux makes decisions and even try wiring it yourself. Along with a mux, we were also introduced to an adder. Building and understanding these was important in the furthering of our knowledge of logic circuits.
 
 
