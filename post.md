@@ -182,6 +182,7 @@ It is now time to use the code to test our 4-1 Multiplexer! First lets understan
 <br><img width="286" src="IMG_0246.JPG">
 # Adder Circuit
 ## 0 About
+<br><img width="400" src="1.JPG">
 We will generate a binary adder in this section! 
 The adder has a couple of inputs: namely bits Ai + Bi of the two operands.
 The outputs are the carry-over from the previous sum and sum bit. 
@@ -189,7 +190,6 @@ We will use cin be the carry-in bit from a previous column. Let cout be the carr
 This will be very important in building complex arithmetic circuits later.
 Now let's start!
 
-<br><img width="400" src="IMG_0251.JPG">
  
 ## 1. Project Step
 - Design a circuit that takes two 1-bit numbers as inputs, plus a carry-in and outputs (first - a bit representing the 1-bit sum of the numbers and second - a bit representing the 1-bit carry)
@@ -200,15 +200,31 @@ Now let's start!
   3. Design a circuit for the adder
       <br><img width="400" src="IMG_CD9D14E48534-1.jpeg">
 - Check the circuit is working by using a computer program
-- Build the circuit on the breadboard!
+- Build the circuit on the breadboard (circuits we are using are AND, XOR, and OR gates IC chips)
 - Start testing!
 
 
 ## 2. Testing
 - Use three switches for the inputs that you connected
 - Try to implement the truth table and check the outputs match
+#### Note : Green LED = Cout and Red LED = C
 
 
+### Example tests:
+1. A = 0, B = 0, Cin = 0  => C = 0, Cout = 0 
+<br><img width="400" src="IMG_0252.JPG">
+
+2. A = 0, B = 0, Cin = 1  => C = 1, Cout = 0 
+<br><img width="400" src="IMG_0253.JPG">
+
+3. A = 1, B = 0, Cin = 0  => C = 1, Cout = 0
+<br><img width="400" src="IMG_0254.JPG">
+
+4. A = 1, B = 0, Cin = 1  => C = 0, Cout = 1
+<br><img width="400" src="IMG_0255.JPG">
+
+5. A = 1, B = 1, Cin = 1  => C = 1, Cout = 1
+<br><img width="400" src="IMG_0256.JPG">
 
 # Conclusion
 This lab had a lot of key takeaways. Namely, we reinforced our understanding of AND, OR, and NOT gates, and even began using an XOR gate for the first time on a breadboard. Along with the XOR gate, some new things we used were, 2-1 and 4-1 multiplexers. While it was easy to just use a premade mux, it is crucial to understand the operations of a mux. It may be helpful to draw out how a mux makes decisions and even try wiring it yourself. Along with a mux, we were also introduced to an adder. Building and understanding these was important in the furthering of our knowledge of logic circuits.
