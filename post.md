@@ -78,7 +78,8 @@ https://github.com/mlcourses/lab-2-blog-post-group2_cs281/assets/108073642/125a3
 
 ## 1. Project Step
 - To start have the 74150 be in the breadboard with its Vcc pin connected to 5v and the GND pin connected to ground.
-- We will have to ground off some of the extra pin that we won't be utilizing. The 
+- We will have to ground off some of the extra pin that we won't be utilizing. The data select C, data select D, and strobe pins need to be wired to ground.
+- We will be using the logic switches once aagin for the inputs
 
 
 ## 2. Testing
