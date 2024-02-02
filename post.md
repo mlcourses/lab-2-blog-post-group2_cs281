@@ -71,8 +71,14 @@ https://github.com/mlcourses/lab-2-blog-post-group2_cs281/assets/108073642/125a3
 
 # A 4 to 1 Mux
 ## 0 About
+- The 4-1 mux is very similar to the 2-1 mux it just has 4 inputs and 2 selectors instead of the 2 inputs and 1 selector. We will be using a 16-1 mux with the 74150 chip but will only be using it as a 4-1 mux.
+- Here is an IC Diagram for the 4-1 Mux to help understand the wiring:  <br />
+<br><img width="286" alt="Screenshot 2024-01-31 at 3 15 32 PM" src="https://github.com/mlcourses/lab-2-blog-post-group2_cs281/assets/140196347/db3f658b-9513-4e90-8f70-59bee36a47d1">
+
 
 ## 1. Project Step
+- To start have the 74150 be in the breadboard with its Vcc pin connected to 5v and the GND pin connected to ground.
+- We will have to ground off some of the extra pin that we won't be utilizing. The 
 
 
 ## 2. Testing
@@ -159,9 +165,6 @@ For consistency with the program, stick to these inputs for the Arduino:
 <br>Pin 7 output data from mux (w on the mux) 
 <br>GND Connect the GND (adjacent to pin 13) to ground on the breadboard 
 ### Wiring
-Here is an IC Diagram for the 4-1 Mux to help understand the wiring
-<br><img width="286" alt="Screenshot 2024-01-31 at 3 15 32 PM" src="https://github.com/mlcourses/lab-2-blog-post-group2_cs281/assets/140196347/db3f658b-9513-4e90-8f70-59bee36a47d1">
-- Looking at this diagram, it may look very confusing. No need to worry, we will explain the wiring.
 - Starting off you will want to make sure that the mux has power by wiring pin 24 into power on the breadboard.
 - Next we will add our ground wires to be attached adjacent to pin hole 13 on the board, as well as 12, 11, and 9.
 - Next, lets do our selector pins. We used orange wires to indicate these, but you make pick whatever color you would like. These will go into ports A and B on the mux. (You can refer to the pin inputs previosuly mentioned to see which wire goes to which port on the Arduino).
