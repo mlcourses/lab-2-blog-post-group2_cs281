@@ -67,7 +67,7 @@ A diagram of the mux circuit:
 - Finally you can wire the OR gate output into a logic inticator to read the output of the multiplexer input.  
 
 ## 2. Testing
-
+To test it use the logic switches for D0, D1, and S0. If S0 is low then the mux should be returning whatever the logic switch for D0 is. And the mux will output D1 if S0 is high. 
 
 
 
