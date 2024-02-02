@@ -25,10 +25,6 @@ This lab will help you get more familiar with mux and logic circuits. The lab wi
 
 
 
-https://github.com/mlcourses/lab-2-blog-post-group2_cs281/assets/108073642/125a3946-ed96-45de-8bef-ba428378e4da
-
-
-
 https://github.com/mlcourses/lab-2-blog-post-group2_cs281/assets/108073642/213d9fcb-be48-41ab-842a-1e43fefb773a
 
 
@@ -67,7 +63,8 @@ A diagram of the mux circuit:
 - Finally you can wire the OR gate output into a logic inticator to read the output of the multiplexer input.  
 
 ## 2. Testing
-To test it use the logic switches for D0, D1, and S0. If S0 is low then the mux should be returning whatever the logic switch for D0 is. And the mux will output D1 if S0 is high. 
+To test it use the logic switches for D0, D1, and S0. If S0 is low then the mux should be returning whatever the logic switch for D0 is. And the mux will output D1 if S0 is high. <br />
+https://github.com/mlcourses/lab-2-blog-post-group2_cs281/assets/108073642/125a3946-ed96-45de-8bef-ba428378e4da
 
 
 
