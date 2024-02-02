@@ -77,13 +77,15 @@ https://github.com/mlcourses/lab-2-blog-post-group2_cs281/assets/108073642/125a3
 
 
 ## 1. Project Step
-- To start have the 74150 be in the breadboard with its Vcc pin connected to 5v and the GND pin connected to ground.
-- We will have to ground off some of the extra pin that we won't be utilizing. The data select C, data select D, and strobe pins need to be wired to ground.
-- We will be using the logic switches once aagin for the inputs
-
+- To start have the 74150 be in the breadboard with its Vcc pin (pin 24) connected to 5v and the GND pin (pin 12) connected to ground.
+- We will have to ground off some of the extra pin that we won't be utilizing. The data select C, data select D, and strobe pins (pins 13, 11, and 9 respectively) need to be wired to ground.
+- We will be using the logic switches once aagin for the inputs. Wire a logic switch for E0 to pin 8, an E1 switch to pin 7, an E2 switch to pin 6, and a switch for E3 to pin 5.
+- Next wire two selectors S0 and S1 from logic switches to data input pin A (pin 15) and data input pin B (pin 14) respectively.
+- Finally you can wire the output pin (pin 10) to a logic indicator for the output. 
 
 ## 2. Testing
-
+- Here is the selector table for which input to select:
+<br><img width="300" src="Screenshot215146.png">
 
 
 
