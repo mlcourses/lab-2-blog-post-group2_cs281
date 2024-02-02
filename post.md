@@ -66,13 +66,13 @@ https://github.com/mlcourses/lab-2-blog-post-group2_cs281/assets/108073642/125a3
 - You may notice that every output of the mux is the opposite of its input.
 - If you were to be selecting the input E0 you would get it opposite. If E0 is high, output is low, and if E0 is low, output is high.
  <br />
-- S0 and S1 are low, input is E0:
+- S0 and S1 are low, input is E0: <br />
 https://github.com/mlcourses/lab-2-blog-post-group2_cs281/assets/108073642/213d9fcb-be48-41ab-842a-1e43fefb773a
-- S0 is high, S1 is low, input is E1:
+- S0 is high, S1 is low, input is E1: <br />
 https://github.com/mlcourses/lab-2-blog-post-group2_cs281/assets/108073642/ddfe7483-52f7-43e0-9fa7-299b150f3bff
-- S0 is low, S1 is high input is E2:
+- S0 is low, S1 is high input is E2: <br />
 https://github.com/mlcourses/lab-2-blog-post-group2_cs281/assets/108073642/5a70cc00-38b9-4871-86ad-b185ff36a86f
-- S0 and S1 are high, input is E3:
+- S0 and S1 are high, input is E3: <br />
 https://github.com/mlcourses/lab-2-blog-post-group2_cs281/assets/108073642/a8c8027f-aae0-4918-9dca-6aa916d5edb1
 
 # A 4 to 1 Mux with Arduino
@@ -178,7 +178,7 @@ It is now time to use the code to test our 4-1 Multiplexer! First lets understan
 - Make sure to compile and verify the code and then upload it to the Arduino.
 - It should then start running on your computer screen.
 - You will see lines indicating the inputs and they will either say "Ok" or "Bad"
-- You want to make sure they all say "Ok"!
+- You want to make sure they all say "Ok"! <br />
 https://github.com/mlcourses/lab-2-blog-post-group2_cs281/assets/108073642/4e63c027-e4d0-484e-8188-e232cd5fff7f
 
 - Here is what our correct wiring looks like if yours is not working:
