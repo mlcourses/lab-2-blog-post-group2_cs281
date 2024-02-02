@@ -59,7 +59,9 @@ A diagram of the mux circuit:
 -Then another logic switch to be used for D0 should be wired to one of the AND gates. The other input for this AND gate will be the output of our NOT gate for S0.
 - D1 will be another logic switch wired to a different AND gate with the direct offshoot of S0 being the other gate input.
 - From the two outputs of the AND gate wire them into an OR gate.
-- Finally you can wire the OR gate output into a logic inticator to read the output of the multiplexer input.  
+- Finally you can wire the OR gate output into a logic inticator to read the output of the multiplexer input.
+- It should look somthing like this:
+<br><img width="300" src="IMG_0228.JPG">
 
 ## 2. Testing
 To test it use the logic switches for D0, D1, and S0. If S0 is low then the mux should be returning whatever the logic switch for D0 is. And the mux will output D1 if S0 is high. <br />
