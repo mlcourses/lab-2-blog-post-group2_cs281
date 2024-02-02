@@ -23,29 +23,6 @@ This lab will help you get more familiar with mux and logic circuits. The lab wi
 - Arduino controller and USB cable
 
 
-
-
-https://github.com/mlcourses/lab-2-blog-post-group2_cs281/assets/108073642/213d9fcb-be48-41ab-842a-1e43fefb773a
-
-
-
-https://github.com/mlcourses/lab-2-blog-post-group2_cs281/assets/108073642/ddfe7483-52f7-43e0-9fa7-299b150f3bff
-
-
-
-https://github.com/mlcourses/lab-2-blog-post-group2_cs281/assets/108073642/5a70cc00-38b9-4871-86ad-b185ff36a86f
-
-
-
-https://github.com/mlcourses/lab-2-blog-post-group2_cs281/assets/108073642/a8c8027f-aae0-4918-9dca-6aa916d5edb1
-
-
-
-https://github.com/mlcourses/lab-2-blog-post-group2_cs281/assets/108073642/4e63c027-e4d0-484e-8188-e232cd5fff7f
-
-
-
-
 # A 2 to 1 Mux
 ## 0 About
 To begin with we will construct a multiplexer or a mux for short. A multiplexer is meant for selecting between multiple inputs to one output. The 2 to 1 mux we will be constructing will have two inputs D0 and D1 and a selector S0 which toggles which input is being sent out. We will be using AND, OR, and NOT gates to construct our multiplexer. For this use the 7408, 7432, and 7404, AND, OR, and NOT gate ICs.<br />
@@ -85,9 +62,18 @@ https://github.com/mlcourses/lab-2-blog-post-group2_cs281/assets/108073642/125a3
 
 ## 2. Testing
 - Here is the selector table for which input to select:
-<br><img width="300" src="Screenshot215146.png">
-
-
+<br><img width="300" src="Screenshot215146.png">  <br />
+- You may notice that every output of the mux is the opposite of its input.
+- If you were to be selecting the input E0 you would get it opposite. If E0 is high, output is low, and if E0 is low, output is high.
+ <br />
+- S0 and S1 are low, input is E0:
+https://github.com/mlcourses/lab-2-blog-post-group2_cs281/assets/108073642/213d9fcb-be48-41ab-842a-1e43fefb773a
+- S0 is high, S1 is low, input is E1:
+https://github.com/mlcourses/lab-2-blog-post-group2_cs281/assets/108073642/ddfe7483-52f7-43e0-9fa7-299b150f3bff
+- S0 is low, S1 is high input is E2:
+https://github.com/mlcourses/lab-2-blog-post-group2_cs281/assets/108073642/5a70cc00-38b9-4871-86ad-b185ff36a86f
+- S0 and S1 are high, input is E3:
+https://github.com/mlcourses/lab-2-blog-post-group2_cs281/assets/108073642/a8c8027f-aae0-4918-9dca-6aa916d5edb1
 
 # A 4 to 1 Mux with Arduino
 ## 0 About
@@ -174,6 +160,7 @@ For consistency with the program, stick to these inputs for the Arduino:
 - Next we will want to add our input wires, do this by inserting wires adjacent to pins E0-E3. These will by attached to pins 10-13 on the Arduino. (Again, refer to the pin inputs for the Arduino previously stated).
 - Finally for the mux, we want to wire our output to the logic indicator. This can be done by inserting a wire adjacent to the W pin on the mux.
 - For the Arduino we also need to ground it (GND on the board), as well as connect all the wires from the mux to the appropriate pin holes.
+
 ## 2. Testing
 It is now time to use the code to test our 4-1 Multiplexer! First lets understand the code.
 - The first two lines are lists containing 0s and 1s for our selector pins. You will see a lot of these lists. The program will loop through these lists and use the values at each index of the list as an input to the mux.
@@ -192,6 +179,8 @@ It is now time to use the code to test our 4-1 Multiplexer! First lets understan
 - It should then start running on your computer screen.
 - You will see lines indicating the inputs and they will either say "Ok" or "Bad"
 - You want to make sure they all say "Ok"!
+https://github.com/mlcourses/lab-2-blog-post-group2_cs281/assets/108073642/4e63c027-e4d0-484e-8188-e232cd5fff7f
+
 - Here is what our correct wiring looks like if yours is not working:
 <br><img width="286" src="IMG_0246.JPG">
 
