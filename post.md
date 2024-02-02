@@ -54,7 +54,7 @@ A diagram of the mux circuit:
 
 ## 1. Project Step
 - To start have your three ICs on the bread board and wire thier Vcc pins to 5v and the GND pins to ground.
-<br><img width="300" src="IMG_0228.JPG">
+<br><img width="300" src="IMG_0228.JPG"><br />
 -Wire a logic switch on the bread board to split and have one offshoot be going into a NOT gate.
 -Then another logic switch to be used for D0 should be wired to one of the AND gates. The other input for this AND gate will be the output of our NOT gate for S0.
 - D1 will be another logic switch wired to a different AND gate with the direct offshoot of S0 being the other gate input.
